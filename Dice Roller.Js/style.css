@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #dbeafe);
+    text-align: center;
+    margin: 0;
+    padding: 50px 20px;
+    color: #1f2937;
+}
+
+#myh1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #111827;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#Num {
+    font-size: 1.2rem;
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#Num:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+}
+
+#btn {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(37, 99, 235, 0.3);
+}
+
+#btn:active {
+    transform: translateY(0);
+}
+
+#diceResult {
+    margin-top: 30px;
+    font-size: 4rem;
+    letter-spacing: 10px;
+}
